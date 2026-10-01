@@ -1,0 +1,70 @@
+.stock-autocomplete {
+  position: relative;
+}
+
+.stock-suggestions {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 5px);
+  z-index: 40;
+  max-height: 260px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #dfe3e8;
+  border-radius: 12px;
+  box-shadow: 0 14px 32px rgba(31, 41, 55, 0.14);
+}
+
+.stock-suggestion {
+  width: 100%;
+  border: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  padding: 11px 12px;
+  border-bottom: 1px solid #edf0f3;
+}
+
+.stock-suggestion:last-child {
+  border-bottom: 0;
+}
+
+.stock-suggestion:hover {
+  background: #f7f9fb;
+}
+
+.stock-suggestion span {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.stock-suggestion strong {
+  font-size: 13px;
+}
+
+.stock-suggestion small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #737b87;
+  font-size: 11px;
+}
+
+.stock-suggestion em {
+  flex: 0 0 auto;
+  font-style: normal;
+  color: #596271;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.stock-suggestion-muted {
+  padding: 12px;
+  color: #737b87;
+  font-size: 12px;
+}

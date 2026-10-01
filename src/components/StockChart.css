@@ -1,0 +1,27 @@
+.chart-wrap {
+  width: 100%;
+  min-height: 240px;
+}
+
+.chart-empty {
+  min-height: 240px;
+  display: grid;
+  place-items: center;
+  color: #7a828e;
+  font-size: 14px;
+}
+
+.purchase-tooltip {
+  display: grid;
+  gap: 4px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #e1e5ea;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-size: 12px;
+}
+
+.purchase-tooltip strong {
+  margin-bottom: 3px;
+}
