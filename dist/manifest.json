@@ -1,0 +1,17 @@
+{
+  "name": "SIP Investment Tracker",
+  "short_name": "SIP Tracker",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#f6f8fb",
+  "description": "Track monthly investment plans, purchases, pending buying power and history.",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
