@@ -1,8 +1,7 @@
 const YAHOO_CHART_URL = "/api/yahoo/v8/finance/chart";
-const NSE_EQUITY_CSV_URL = "/api/nse/content/equities/EQUITY_L.csv";
-const NSE_ETF_CSV_URL = "/api/nse/content/equities/eq_etfseclist.csv";
-const AMFI_SCHEME_URL = "/api/amfi/DownloadSchemeData_Po.aspx?mf=0";
-
+const NSE_EQUITY_CSV_URL = "/data/EQUITY_L.csv";
+const NSE_ETF_CSV_URL = "/data/eq_etfseclist.csv";
+const AMFI_SCHEME_URL = "/data/MF.txt";
 const searchCache = new Map();
 const historyCache = new Map();
 const quoteCache = new Map();
